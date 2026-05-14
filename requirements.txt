@@ -1,0 +1,9 @@
+# Core NLP / Hugging Face dependencies
+transformers==4.40.2
+tokenizers==0.19.1
+
+# Deep learning backend (CPU-only build)
+torch==2.2.2
+
+# Numerical computing (required by transformers internally)
+numpy==1.26.4
